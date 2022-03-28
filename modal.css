@@ -1,0 +1,50 @@
+#close-modal
+{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    
+}
+#modal-body
+{
+    display:none;
+    position: absolute;
+    background-color: lightgrey;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.close {
+
+    height:30px;
+    width:30px;
+    cursor: pointer;
+}
+#modal
+{
+    background-color: white;
+    height: 350px;
+    top: 20;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    right: 250px;
+    
+
+}
+#head
+{
+    display: flex;
+    justify-content: center;
+}
+#modal-content
+{
+    padding:30px;
+}
+.outer-body
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
